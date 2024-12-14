@@ -8,7 +8,6 @@ import net.squishkitt.SQArmory.SQArmory;
 
 public class ModTags {
     public static class Items {
-
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(SQArmory.MOD_ID, name));
         }
