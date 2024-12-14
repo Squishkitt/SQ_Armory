@@ -1,6 +1,7 @@
 package net.squishkitt.SQArmory;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -13,12 +14,12 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.squishkitt.SQArmory.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(SQArmory.MOD_ID)
-public class SQArmory
-{
+public class SQArmory {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "sqarmory";
     // Directly reference a slf4j logger
@@ -29,6 +30,8 @@ public class SQArmory
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModItems.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -41,6 +44,11 @@ public class SQArmory
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.WOOD_LONGSWORD);
+            event.accept(ModItems.WOOD_SHORTSWORD);
+            event.accept(ModItems.WOOD_BAXE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
