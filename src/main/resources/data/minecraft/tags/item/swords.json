@@ -2,6 +2,14 @@
   "values": [
     "sqarmory:wood_longsword",
     "sqarmory:wood_shortsword",
-    "sqarmory:wood_baxe"
+    "sqarmory:wood_baxe",
+
+    "sqarmory:stone_longsword",
+    "sqarmory:stone_shortsword",
+    "sqarmory:stone_baxe",
+
+    "sqarmory:iron_longsword",
+    "sqarmory:iron_shortsword",
+    "sqarmory:iron_baxe"
   ]
 }

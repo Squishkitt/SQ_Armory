@@ -1,5 +1,23 @@
 {
+  "item.sqarmory.auric_ingot": "Auric Ingot",
+  "item.sqarmory.auric_upgrade": "Smithing Template",
+
   "item.sqarmory.wood_longsword": "Wooden Longsword",
   "item.sqarmory.wood_shortsword": "Wooden Shortsword",
-  "item.sqarmory.wood_baxe": "Wooden Battleaxe"
+  "item.sqarmory.wood_baxe": "Wooden Battleaxe",
+
+  "item.sqarmory.stone_longsword": "Stone Longsword",
+  "item.sqarmory.stone_shortsword": "Stone Shortsword",
+  "item.sqarmory.stone_baxe": "Stone Battleaxe",
+
+  "item.sqarmory.iron_longsword": "Iron Longsword",
+  "item.sqarmory.iron_shortsword": "Iron Shortsword",
+  "item.sqarmory.iron_baxe": "Iron Battleaxe",
+
+  "item.sqarmory.smithing_template.auric_upgrade.applies_to": "Gold Equipment",
+  "item.sqarmory.smithing_template.auric_upgrade.ingredients": "Auric Ingot",
+  "item.sqarmory.smithing_template.auric_upgrade.base_slot_description": "Add gold armor, weapon, or tool",
+  "item.sqarmory.smithing_template.auric_upgrade.additions_slot_description": "Add Auric Ingot",
+  "upgrade.sqarmory.auric_upgrade": "Auric Upgrade"
+
 }

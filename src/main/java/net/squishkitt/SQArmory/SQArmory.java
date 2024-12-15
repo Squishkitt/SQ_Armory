@@ -48,6 +48,18 @@ public class SQArmory {
             event.accept(ModItems.WOOD_LONGSWORD);
             event.accept(ModItems.WOOD_SHORTSWORD);
             event.accept(ModItems.WOOD_BAXE);
+
+            event.accept(ModItems.STONE_LONGSWORD);
+            event.accept(ModItems.STONE_SHORTSWORD);
+            event.accept(ModItems.STONE_BAXE);
+
+            event.accept(ModItems.IRON_LONGSWORD);
+            event.accept(ModItems.IRON_SHORTSWORD);
+            event.accept(ModItems.IRON_BAXE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.AURIC_INGOT);
+            event.accept(ModItems.AURIC_UPGRADE);
         }
     }
 
