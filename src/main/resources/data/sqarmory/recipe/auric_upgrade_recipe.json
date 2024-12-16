@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "#s#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_nugget"
+        },
+        "S": {
+            "item": "sqarmory:auric_upgrade"
+        },
+        "s": {
+            "item": "sqarmory:auric_ingot"
+        }
+    },
+    "result": {
+        "id": "sqarmory:auric_upgrade",
+        "count": 2
+    }
+}

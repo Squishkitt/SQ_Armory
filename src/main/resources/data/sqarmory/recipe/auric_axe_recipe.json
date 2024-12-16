@@ -4,12 +4,12 @@
         "item": "sqarmory:auric_upgrade"
     },
     "base": {
-        "item": "minecraft:golden_sword"
+        "item": "minecraft:golden_axe"
     },
     "addition": {
         "item": "sqarmory:auric_ingot"
     },
     "result": {
-        "id": "minecraft:diamond_sword"
+        "id": "sqarmory:auric_axe"
     }
 }

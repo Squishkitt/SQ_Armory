@@ -10,6 +10,15 @@
 
     "sqarmory:iron_longsword",
     "sqarmory:iron_shortsword",
-    "sqarmory:iron_baxe"
+    "sqarmory:iron_baxe",
+
+    "sqarmory:gold_longsword",
+    "sqarmory:gold_shortsword",
+    "sqarmory:gold_baxe",
+
+    "sqarmory:auric_sword",
+    "sqarmory:auric_longsword",
+    "sqarmory:auric_shortsword",
+    "sqarmory:auric_baxe"
   ]
 }

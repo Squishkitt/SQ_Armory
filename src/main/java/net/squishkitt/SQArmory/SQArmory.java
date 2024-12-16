@@ -45,21 +45,36 @@ public class SQArmory {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.WOOD_LONGSWORD);
             event.accept(ModItems.WOOD_SHORTSWORD);
+            event.accept(ModItems.WOOD_LONGSWORD);
             event.accept(ModItems.WOOD_BAXE);
 
-            event.accept(ModItems.STONE_LONGSWORD);
             event.accept(ModItems.STONE_SHORTSWORD);
+            event.accept(ModItems.STONE_LONGSWORD);
             event.accept(ModItems.STONE_BAXE);
 
-            event.accept(ModItems.IRON_LONGSWORD);
             event.accept(ModItems.IRON_SHORTSWORD);
+            event.accept(ModItems.IRON_LONGSWORD);
             event.accept(ModItems.IRON_BAXE);
+
+            event.accept(ModItems.GOLD_SHORTSWORD);
+            event.accept(ModItems.GOLD_LONGSWORD);
+            event.accept(ModItems.GOLD_BAXE);
+
+            event.accept(ModItems.AURIC_SWORD);
+            event.accept(ModItems.AURIC_SHORTSWORD);
+            event.accept(ModItems.AURIC_LONGSWORD);
+            event.accept(ModItems.AURIC_BAXE);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.AURIC_INGOT);
             event.accept(ModItems.AURIC_UPGRADE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.AURIC_SHOVEL);
+            event.accept(ModItems.AURIC_PICKAXE);
+            event.accept(ModItems.AURIC_AXE);
+            event.accept(ModItems.AURIC_HOE);
         }
     }
 

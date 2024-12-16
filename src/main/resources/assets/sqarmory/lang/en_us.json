@@ -1,5 +1,5 @@
 {
-  "item.sqarmory.auric_ingot": "Auric Ingot",
+  "item.sqarmory.auric_ingot": "Refined Gold Ingot",
   "item.sqarmory.auric_upgrade": "Smithing Template",
 
   "item.sqarmory.wood_longsword": "Wooden Longsword",
@@ -14,10 +14,24 @@
   "item.sqarmory.iron_shortsword": "Iron Shortsword",
   "item.sqarmory.iron_baxe": "Iron Battleaxe",
 
-  "item.sqarmory.smithing_template.auric_upgrade.applies_to": "Gold Equipment",
-  "item.sqarmory.smithing_template.auric_upgrade.ingredients": "Auric Ingot",
-  "item.sqarmory.smithing_template.auric_upgrade.base_slot_description": "Add gold armor, weapon, or tool",
-  "item.sqarmory.smithing_template.auric_upgrade.additions_slot_description": "Add Auric Ingot",
-  "upgrade.sqarmory.auric_upgrade": "Auric Upgrade"
+  "item.sqarmory.gold_longsword": "Golden Longsword",
+  "item.sqarmory.gold_shortsword": "Golden Shortsword",
+  "item.sqarmory.gold_baxe": "Golden Battleaxe",
+
+  "item.sqarmory.auric_longsword": "Refined Gold Longsword",
+  "item.sqarmory.auric_shortsword": "Refined Gold Shortsword",
+  "item.sqarmory.auric_baxe": "Refined Gold Battleaxe",
+
+  "item.sqarmory.auric_sword": "Refined Gold Sword",
+  "item.sqarmory.auric_pickaxe": "Refined Gold Pickaxe",
+  "item.sqarmory.auric_axe": "Refined Gold Axe",
+  "item.sqarmory.auric_shovel": "Refined Gold Shovel",
+  "item.sqarmory.auric_hoe": "Refined Gold Hoe",
+
+  "item.sqarmory.smithing_template.auric_upgrade.applies_to": "Golden Equipment",
+  "item.sqarmory.smithing_template.auric_upgrade.ingredients": "Refined Gold Ingot",
+  "item.sqarmory.smithing_template.auric_upgrade.base_slot_description": "Add golden armor, weapon, or tool",
+  "item.sqarmory.smithing_template.auric_upgrade.additions_slot_description": "Add Refined Gold Ingot",
+  "upgrade.sqarmory.auric_upgrade": "Refined Gold Upgrade"
 
 }

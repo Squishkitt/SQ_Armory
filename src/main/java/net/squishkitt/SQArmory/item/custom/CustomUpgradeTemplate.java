@@ -62,7 +62,7 @@ public class CustomUpgradeTemplate extends Item {
         this.additionalSlotEmptyIcons = pAdditionalSlotEmptyIcons;
     }
 
-    public static net.minecraft.world.item.SmithingTemplateItem createCustomUpgradeTemplate(String Name, String Ingredients, String Applies_to, String Base_slot_desc, String Additions_slot_desc) {
+    public static net.minecraft.world.item.SmithingTemplateItem createCustomUpgradeTemplate(String Name /*upgrade.MOD_ID.Name*/, String Ingredients, String Applies_to, String Base_slot_desc, String Additions_slot_desc) {
         Component upgrade_applies_to = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.fromNamespaceAndPath(SQArmory.MOD_ID, Applies_to))).withStyle(DESCRIPTION_FORMAT);
         Component upgrade_name = Component.translatable(Util.makeDescriptionId("upgrade", ResourceLocation.fromNamespaceAndPath(SQArmory.MOD_ID,Name))).withStyle(TITLE_FORMAT);
         Component upgrade_ingredients = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.fromNamespaceAndPath(SQArmory.MOD_ID,Ingredients))).withStyle(DESCRIPTION_FORMAT);
