@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "sqarmory:auric_ingot",
+    "sqarmory:auric_block",
+    "sqarmory:auric_sword",
+    "sqarmory:auric_pickaxe",
+    "sqarmory:auric_axe",
+    "sqarmory:auric_shovel",
+    "sqarmory:auric_hoe",
+    "sqarmory:auric_baxe",
+    "sqarmory:auric_longsword",
+    "sqarmory:auric_shortsword",
+    "sqarmory:gold_baxe",
+    "sqarmory:gold_longsword",
+    "sqarmory:gold_shortsword"
+  ]
+}

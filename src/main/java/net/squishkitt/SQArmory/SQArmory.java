@@ -14,6 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.squishkitt.SQArmory.block.ModBlocks;
 import net.squishkitt.SQArmory.item.ModItems;
 import org.slf4j.Logger;
 
@@ -32,6 +33,7 @@ public class SQArmory {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -61,6 +63,14 @@ public class SQArmory {
             event.accept(ModItems.GOLD_LONGSWORD);
             event.accept(ModItems.GOLD_BAXE);
 
+            event.accept(ModItems.DIAMOND_SHORTSWORD);
+            event.accept(ModItems.DIAMOND_LONGSWORD);
+            event.accept(ModItems.DIAMOND_BAXE);
+
+            event.accept(ModItems.NETHERITE_SHORTSWORD);
+            event.accept(ModItems.NETHERITE_LONGSWORD);
+            event.accept(ModItems.NETHERITE_BAXE);
+
             event.accept(ModItems.AURIC_SWORD);
             event.accept(ModItems.AURIC_SHORTSWORD);
             event.accept(ModItems.AURIC_LONGSWORD);
@@ -68,13 +78,23 @@ public class SQArmory {
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.AURIC_INGOT);
+            event.accept(ModItems.ECHO_AMETHYST);
+            event.accept(ModItems.UPGRADE_SHARD_1);
+            event.accept(ModItems.UPGRADE_SHARD_2);
+            event.accept(ModItems.UPGRADE_SHARD_3);
+            event.accept(ModItems.UPGRADE_SHARD_4);
             event.accept(ModItems.AURIC_UPGRADE);
+            event.accept(ModItems.DAMASCUS_UPGRADE);
+            event.accept(ModItems.ANCIENT_UPGRADE);
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.AURIC_SHOVEL);
             event.accept(ModItems.AURIC_PICKAXE);
             event.accept(ModItems.AURIC_AXE);
             event.accept(ModItems.AURIC_HOE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.AURIC_BLOCK);
         }
     }
 

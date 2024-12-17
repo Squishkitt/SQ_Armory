@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "sqarmory:upgrade_shard_1"
+        },
+        {
+            "item": "sqarmory:upgrade_shard_2"
+        },
+        {
+            "item": "sqarmory:upgrade_shard_3"
+        },
+        {
+            "item": "sqarmory:upgrade_shard_4"
+        }
+    ],
+    "result": {
+        "id": "sqarmory:ancient_upgrade",
+        "count": 1
+    }
+}

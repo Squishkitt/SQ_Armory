@@ -1,6 +1,15 @@
 {
+  "block.sqarmory.auric_block": "Block of Refined Gold",
+
   "item.sqarmory.auric_ingot": "Refined Gold Ingot",
+  "item.sqarmory.echo_amethyst": "Echo Amethyst",
+  "item.sqarmory.upgrade_shard_1": "Ancient Fragment α",
+  "item.sqarmory.upgrade_shard_2": "Ancient Fragment β",
+  "item.sqarmory.upgrade_shard_3": "Ancient Fragment γ",
+  "item.sqarmory.upgrade_shard_4": "Ancient Fragment δ",
   "item.sqarmory.auric_upgrade": "Smithing Template",
+  "item.sqarmory.damascus_upgrade": "Smithing Template",
+  "item.sqarmory.ancient_upgrade": "Ancient Smithing Template",
 
   "item.sqarmory.wood_longsword": "Wooden Longsword",
   "item.sqarmory.wood_shortsword": "Wooden Shortsword",
@@ -18,6 +27,14 @@
   "item.sqarmory.gold_shortsword": "Golden Shortsword",
   "item.sqarmory.gold_baxe": "Golden Battleaxe",
 
+  "item.sqarmory.diamond_longsword": "Diamond Longsword",
+  "item.sqarmory.diamond_shortsword": "Diamond Shortsword",
+  "item.sqarmory.diamond_baxe": "Diamond Battleaxe",
+
+  "item.sqarmory.netherite_longsword": "Netherite Longsword",
+  "item.sqarmory.netherite_shortsword": "Netherite Shortsword",
+  "item.sqarmory.netherite_baxe": "Netherite Battleaxe",
+
   "item.sqarmory.auric_longsword": "Refined Gold Longsword",
   "item.sqarmory.auric_shortsword": "Refined Gold Shortsword",
   "item.sqarmory.auric_baxe": "Refined Gold Battleaxe",
@@ -32,6 +49,20 @@
   "item.sqarmory.smithing_template.auric_upgrade.ingredients": "Refined Gold Ingot",
   "item.sqarmory.smithing_template.auric_upgrade.base_slot_description": "Add golden armor, weapon, or tool",
   "item.sqarmory.smithing_template.auric_upgrade.additions_slot_description": "Add Refined Gold Ingot",
-  "upgrade.sqarmory.auric_upgrade": "Refined Gold Upgrade"
+  "upgrade.sqarmory.auric_upgrade": "Refined Gold Upgrade",
 
+  "item.sqarmory.smithing_template.damascus_upgrade.applies_to": "Metallic Weapons",
+  "item.sqarmory.smithing_template.damascus_upgrade.ingredients": "Ingot of Weapon material",
+  "item.sqarmory.smithing_template.damascus_upgrade.base_slot_description": "Add metallic weapon",
+  "item.sqarmory.smithing_template.damascus_upgrade.additions_slot_description": "Add Ingot of Weapon material",
+  "upgrade.sqarmory.damascus_upgrade": "Damascus Upgrade",
+
+  "item.sqarmory.smithing_template.ancient_upgrade.applies_to": "Refined Gold Weapons",
+  "item.sqarmory.smithing_template.ancient_upgrade.ingredients": "Echo Amethyst",
+  "item.sqarmory.smithing_template.ancient_upgrade.base_slot_description": "Add refined gold armor, weapon, or tool",
+  "item.sqarmory.smithing_template.ancient_upgrade.additions_slot_description": "Add Echo Amethyst",
+  "upgrade.sqarmory.ancient_upgrade": "Ancient Upgrade",
+
+  "tooltip.sqarmory.upgrade_shard": "αβγδ",
+  "tooltip.sqarmory.upgrade_shard_hint": "An ancient Empire\nCity, Fortress and Stronghold\nSeek them, Child of Stone."
 }

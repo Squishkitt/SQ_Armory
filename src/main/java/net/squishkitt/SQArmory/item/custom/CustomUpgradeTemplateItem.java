@@ -3,6 +3,7 @@ package net.squishkitt.SQArmory.item.custom;
 import java.util.List;
 import net.minecraft.ChatFormatting;
 import net.minecraft.Util;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.CommonComponents;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -12,16 +13,14 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.squishkitt.SQArmory.SQArmory;
 
-public class CustomUpgradeTemplate extends Item {
+public class CustomUpgradeTemplateItem extends Item {
+
     private static final ChatFormatting TITLE_FORMAT = ChatFormatting.GRAY;
     private static final ChatFormatting DESCRIPTION_FORMAT = ChatFormatting.BLUE;
     private static final Component INGREDIENTS_TITLE = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.withDefaultNamespace("smithing_template.ingredients")))
             .withStyle(TITLE_FORMAT);
     private static final Component APPLIES_TO_TITLE = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.withDefaultNamespace("smithing_template.applies_to")))
             .withStyle(TITLE_FORMAT);
-
-
-
 
     private static final ResourceLocation EMPTY_SLOT_HELMET = ResourceLocation.withDefaultNamespace("item/empty_armor_slot_helmet");
     private static final ResourceLocation EMPTY_SLOT_CHESTPLATE = ResourceLocation.withDefaultNamespace("item/empty_armor_slot_chestplate");
@@ -42,7 +41,7 @@ public class CustomUpgradeTemplate extends Item {
     private final List<ResourceLocation> baseSlotEmptyIcons;
     private final List<ResourceLocation> additionalSlotEmptyIcons;
 
-    public CustomUpgradeTemplate(
+    public CustomUpgradeTemplateItem(
             Component pAppliesTo,
             Component pIngredients,
             Component pUpgradeDescription,
