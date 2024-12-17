@@ -149,5 +149,18 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.AURIC, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.AURIC, -3, 0.0f))));
 
+    public static final RegistryObject<Item> AURIC_HELMET = ITEMS.register("auric_helmet",
+            () -> new ArmorItem(ModArmorMaterials.AURIC_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(25))));
+    public static final RegistryObject<Item> AURIC_CHESTPLATE = ITEMS.register("auric_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.AURIC_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(25))));
+    public static final RegistryObject<Item> AURIC_LEGGINGS = ITEMS.register("auric_leggings",
+            () -> new ArmorItem(ModArmorMaterials.AURIC_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(25))));
+    public static final RegistryObject<Item> AURIC_BOOTS = ITEMS.register("auric_boots",
+            () -> new ArmorItem(ModArmorMaterials.AURIC_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(25))));
+
     public static void register(IEventBus eventBus) { ITEMS.register(eventBus); }
 }

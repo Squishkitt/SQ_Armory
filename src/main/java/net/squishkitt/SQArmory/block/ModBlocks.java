@@ -20,7 +20,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, SQArmory.MOD_ID);
 
-    //needs loot table
+    //needs recipe
     public static final RegistryObject<Block> AURIC_BLOCK = registerBlock("auric_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.GOLD)

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "sqarmory:auric_ingot"
+        },
+        {
+            "item": "sqarmory:auric_ingot"
+        },
+        {
+            "item": "sqarmory:auric_ingot"
+        },
+        {
+            "item": "sqarmory:auric_ingot"
+        },
+        {
+            "item": "sqarmory:auric_ingot"
+        },
+        {
+            "item": "sqarmory:auric_ingot"
+        },
+        {
+            "item": "sqarmory:auric_ingot"
+        },
+        {
+            "item": "sqarmory:auric_ingot"
+        },
+        {
+            "item": "sqarmory:auric_ingot"
+        }
+    ],
+    "result": {
+        "id": "sqarmory:auric_block",
+        "count": 1
+    }
+}

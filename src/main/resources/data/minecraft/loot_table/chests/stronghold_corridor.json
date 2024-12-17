@@ -6,16 +6,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sqarmory:upgrade_shard_3",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "sqarmory:upgrade_shard_4",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
           "weight": 10
         },

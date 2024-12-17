@@ -45,6 +45,11 @@
   "item.sqarmory.auric_shovel": "Refined Gold Shovel",
   "item.sqarmory.auric_hoe": "Refined Gold Hoe",
 
+  "item.sqarmory.auric_helmet": "Refined Gold Helmet",
+  "item.sqarmory.auric_chestplate": "Refined Gold Chestplate",
+  "item.sqarmory.auric_leggings": "Refined Gold Leggings",
+  "item.sqarmory.auric_boots": "Refined Gold Boots",
+
   "item.sqarmory.smithing_template.auric_upgrade.applies_to": "Golden Equipment",
   "item.sqarmory.smithing_template.auric_upgrade.ingredients": "Refined Gold Ingot",
   "item.sqarmory.smithing_template.auric_upgrade.base_slot_description": "Add golden armor, weapon, or tool",
@@ -64,5 +69,5 @@
   "upgrade.sqarmory.ancient_upgrade": "Ancient Upgrade",
 
   "tooltip.sqarmory.upgrade_shard": "αβγδ",
-  "tooltip.sqarmory.upgrade_shard_hint": "An ancient Empire\nCity, Fortress and Stronghold\nSeek them, Child of Stone."
+  "tooltip.sqarmory.upgrade_shard_hint": "A fallen Empire\nCity, Fortress, and Stronghold\nOnly you remain"
 }

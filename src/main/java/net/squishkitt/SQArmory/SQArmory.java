@@ -75,6 +75,11 @@ public class SQArmory {
             event.accept(ModItems.AURIC_SHORTSWORD);
             event.accept(ModItems.AURIC_LONGSWORD);
             event.accept(ModItems.AURIC_BAXE);
+
+            event.accept(ModItems.AURIC_HELMET);
+            event.accept(ModItems.AURIC_CHESTPLATE);
+            event.accept(ModItems.AURIC_LEGGINGS);
+            event.accept(ModItems.AURIC_BOOTS);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.AURIC_INGOT);

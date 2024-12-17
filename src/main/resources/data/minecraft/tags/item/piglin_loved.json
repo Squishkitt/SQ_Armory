@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "sqarmory:auric_ingot",
+    "sqarmory:auric_helmet",
+    "sqarmory:auric_chestplate",
+    "sqarmory:auric_leggings",
+    "sqarmory:auric_boots",
     "sqarmory:auric_block",
     "sqarmory:auric_sword",
     "sqarmory:auric_pickaxe",

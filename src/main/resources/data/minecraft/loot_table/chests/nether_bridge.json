@@ -6,16 +6,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sqarmory:upgrade_shard_2",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "sqarmory:upgrade_shard_3",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
@@ -146,6 +136,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rib_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sqarmory:upgrade_shard_3",
+          "weight": 6
         }
       ],
       "rolls": 1.0
