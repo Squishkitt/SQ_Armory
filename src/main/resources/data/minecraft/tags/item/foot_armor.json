@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "sqarmory:auric_boots"
+    "sqarmory:auric_boots",
+    "sqarmory:aa_boots"
   ]
 }

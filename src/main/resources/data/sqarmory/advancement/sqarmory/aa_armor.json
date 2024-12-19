@@ -1,0 +1,46 @@
+{
+  "parent": "sqarmory:sqarmory/get_echo_amethyst",
+  "criteria": {
+    "aa_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:aa_helmet"
+          },
+          {
+            "items": "sqarmory:aa_chestplate"
+          },
+          {
+            "items": "sqarmory:aa_leggings"
+          },
+          {
+            "items": "sqarmory:aa_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.sqarmory.aa_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "sqarmory:aa_chestplate"
+    },
+    "title": {
+      "translate": "advancements.sqarmory.aa_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "aa_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

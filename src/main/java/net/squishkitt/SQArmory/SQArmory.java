@@ -85,6 +85,11 @@ public class SQArmory {
             event.accept(ModItems.AURIC_CHESTPLATE);
             event.accept(ModItems.AURIC_LEGGINGS);
             event.accept(ModItems.AURIC_BOOTS);
+
+            event.accept(ModItems.AA_HELMET);
+            event.accept(ModItems.AA_CHESTPLATE);
+            event.accept(ModItems.AA_LEGGINGS);
+            event.accept(ModItems.AA_BOOTS);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.AURIC_INGOT);

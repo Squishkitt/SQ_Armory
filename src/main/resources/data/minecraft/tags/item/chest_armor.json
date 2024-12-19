@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "sqarmory:auric_chestplate"
+    "sqarmory:auric_chestplate",
+    "sqarmory:aa_chestplate"
   ]
 }

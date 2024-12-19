@@ -26,7 +26,16 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.CHESTPLATE, 7);
                 attribute.put(ArmorItem.Type.HELMET, 3);
                 attribute.put(ArmorItem.Type.BODY, 11);
-            }), 22, 1.6f, 0.0f, () -> ModItems.AURIC_INGOT.get());
+            }), 22, 1.5f, 0.0f, () -> ModItems.AURIC_INGOT.get());
+
+    public static final Holder<ArmorMaterial> ANCIENT_ARMOR_MATERIAL = register("ancient", Util.make(new EnumMap<>(ArmorItem.Type.class),
+            attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 3);
+                attribute.put(ArmorItem.Type.LEGGINGS, 6);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 8);
+                attribute.put(ArmorItem.Type.HELMET, 3);
+                attribute.put(ArmorItem.Type.BODY, 11);
+            }), 22, 2.5f, 0.05f, () -> ModItems.ECHO_AMETHYST.get());
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
                                                   int enchantability, float toughness, float knockbackResistance,

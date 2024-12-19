@@ -61,6 +61,11 @@
   "item.sqarmory.auric_leggings": "Refined Gold Leggings",
   "item.sqarmory.auric_boots": "Refined Gold Boots",
 
+  "item.sqarmory.aa_helmet": "Ancient Amethyst Helmet",
+  "item.sqarmory.aa_chestplate": "Ancient Amethyst Chestplate",
+  "item.sqarmory.aa_leggings": "Ancient Amethyst Leggings",
+  "item.sqarmory.aa_boots": "Ancient Amethyst Boots",
+
   "item.sqarmory.smithing_template.auric_upgrade.applies_to": "Golden Equipment",
   "item.sqarmory.smithing_template.auric_upgrade.ingredients": "Refined Gold Ingot",
   "item.sqarmory.smithing_template.auric_upgrade.base_slot_description": "Add golden armor, weapon, or tool",
@@ -113,6 +118,9 @@
 
   "advancements.sqarmory.get_echo_amethyst.title": "Echoes of the Past",
   "advancements.sqarmory.get_echo_amethyst.description": "Synthesize an Echo Amethyst",
+
+  "advancements.sqarmory.aa_armor.title": "Cover me in Sculk",
+  "advancements.sqarmory.aa_armor.description": "Get a full suit of Ancient Amethyst armor",
 
   "advancements.sqarmory.get_aa_block.title": "Prime Echoes",
   "advancements.sqarmory.get_aa_block.description": "Craft a Block of Echo Amethyst"

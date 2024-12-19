@@ -2,13 +2,8 @@
   "criteria": {
     "crafting_table": {
       "conditions": {
-        "items": [
-          {
-            "items": "sqarmory:auric_ingot"
-          }
-        ]
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:tick"
     }
   },
   "display": {

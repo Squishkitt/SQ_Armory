@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "sqarmory:auric_helmet"
+    "sqarmory:auric_helmet",
+    "sqarmory:aa_helmet"
   ]
 }
