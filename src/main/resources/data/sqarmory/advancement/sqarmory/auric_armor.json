@@ -1,0 +1,46 @@
+{
+  "parent": "sqarmory:sqarmory/get_auric_ingot",
+  "criteria": {
+    "auric_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:auric_helmet"
+          },
+          {
+            "items": "sqarmory:auric_chestplate"
+          },
+          {
+            "items": "sqarmory:auric_leggings"
+          },
+          {
+            "items": "sqarmory:auric_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.sqarmory.auric_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "sqarmory:auric_chestplate"
+    },
+    "title": {
+      "translate": "advancements.sqarmory.auric_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "auric_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

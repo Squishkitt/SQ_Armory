@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "sqarmory:echo_amethyst"
+        },
+        {
+            "item": "sqarmory:echo_amethyst"
+        },
+        {
+            "item": "sqarmory:echo_amethyst"
+        },
+        {
+            "item": "sqarmory:echo_amethyst"
+        },
+        {
+            "item": "sqarmory:echo_amethyst"
+        },
+        {
+            "item": "sqarmory:echo_amethyst"
+        },
+        {
+            "item": "sqarmory:echo_amethyst"
+        },
+        {
+            "item": "sqarmory:echo_amethyst"
+        },
+        {
+            "item": "sqarmory:echo_amethyst"
+        }
+    ],
+    "result": {
+        "id": "sqarmory:aa_block",
+        "count": 1
+    }
+}

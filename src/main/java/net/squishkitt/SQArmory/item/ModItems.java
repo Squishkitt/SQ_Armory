@@ -1,5 +1,9 @@
 package net.squishkitt.SQArmory.item;
 
+import net.minecraft.Util;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,13 +25,37 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> UPGRADE_SHARD_1 = ITEMS.register("upgrade_shard_1",
-            () -> new UpgradeShardItem(new Item.Properties()));
+            () -> new UpgradeShardItem(new Item.Properties()){
+                @Override
+                public void setTypeAndDesc() {
+                    Type = "upgrade_shard_type";
+                    Desc = "upgrade_shard_1_desc";
+                }
+            });
     public static final RegistryObject<Item> UPGRADE_SHARD_2 = ITEMS.register("upgrade_shard_2",
-            () -> new UpgradeShardItem(new Item.Properties()));
+            () -> new UpgradeShardItem(new Item.Properties()){
+                @Override
+                public void setTypeAndDesc() {
+                    Type = "upgrade_shard_type";
+                    Desc = "upgrade_shard_2_desc";
+                }
+            });
     public static final RegistryObject<Item> UPGRADE_SHARD_3 = ITEMS.register("upgrade_shard_3",
-            () -> new UpgradeShardItem(new Item.Properties()));
+            () -> new UpgradeShardItem(new Item.Properties()){
+                @Override
+                public void setTypeAndDesc() {
+                    Type = "upgrade_shard_type";
+                    Desc = "upgrade_shard_3_desc";
+                }
+            });
     public static final RegistryObject<Item> UPGRADE_SHARD_4 = ITEMS.register("upgrade_shard_4",
-            () -> new UpgradeShardItem(new Item.Properties()));
+            () -> new UpgradeShardItem(new Item.Properties()){
+                @Override
+                public void setTypeAndDesc() {
+                    Type = "upgrade_shard_type";
+                    Desc = "upgrade_shard_4_desc";
+                }
+            });
 
 
     public static final RegistryObject<Item> AURIC_UPGRADE = ITEMS.register("auric_upgrade",
@@ -133,6 +161,16 @@ public class ModItems {
             () -> new BaxeItem(ModToolTiers.AURIC, new Item.Properties()
                     .attributes(AxeItem.createAttributes(ModToolTiers.AURIC, BattleAxeDamage, BattleAxeSpeed))));
 
+    public static final RegistryObject<Item> AA_LONGSWORD = ITEMS.register("aa_longsword",
+            () -> new SwordItem(ModToolTiers.ANCIENT, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ANCIENT, LongSwordDamage, LongSwordSpeed))));
+    public static final RegistryObject<Item> AA_SHORTSWORD = ITEMS.register("aa_shortsword",
+            () -> new SwordItem(ModToolTiers.ANCIENT, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ANCIENT, ShortSwordDamage, ShortSwordSpeed))));
+    public static final RegistryObject<Item> AA_BAXE = ITEMS.register("aa_baxe",
+            () -> new BaxeItem(ModToolTiers.ANCIENT, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.ANCIENT, BattleAxeDamage, BattleAxeSpeed))));
+
     public static final RegistryObject<Item> AURIC_SWORD = ITEMS.register("auric_sword",
             () -> new SwordItem(ModToolTiers.AURIC, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.AURIC, 3, -2.4f))));
@@ -148,6 +186,22 @@ public class ModItems {
     public static final RegistryObject<Item> AURIC_HOE = ITEMS.register("auric_hoe",
             () -> new HoeItem(ModToolTiers.AURIC, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.AURIC, -3, 0.0f))));
+
+    public static final RegistryObject<Item> AA_SWORD = ITEMS.register("aa_sword",
+            () -> new SwordItem(ModToolTiers.ANCIENT, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ANCIENT, 3, -2.4f))));
+    public static final RegistryObject<Item> AA_PICKAXE = ITEMS.register("aa_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ANCIENT, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ANCIENT, 1, -2.8f))));
+    public static final RegistryObject<Item> AA_SHOVEL = ITEMS.register("aa_shovel",
+            () -> new ShovelItem(ModToolTiers.ANCIENT, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.ANCIENT, 1.5f, -3.0f))));
+    public static final RegistryObject<Item> AA_AXE = ITEMS.register("aa_axe",
+            () -> new AxeItem(ModToolTiers.ANCIENT, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.ANCIENT, 5, -3.0f))));
+    public static final RegistryObject<Item> AA_HOE = ITEMS.register("aa_hoe",
+            () -> new HoeItem(ModToolTiers.ANCIENT, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.ANCIENT, -3, 0.0f))));
 
     public static final RegistryObject<Item> AURIC_HELMET = ITEMS.register("auric_helmet",
             () -> new ArmorItem(ModArmorMaterials.AURIC_ARMOR_MATERIAL, ArmorItem.Type.HELMET,

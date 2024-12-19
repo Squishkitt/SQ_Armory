@@ -1,0 +1,33 @@
+{
+  "parent": "sqarmory:sqarmory/root",
+  "criteria": {
+    "have_modweapon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#sqarmory:modweapons"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.sqarmory.get_modweapon.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "sqarmory:iron_baxe"
+    },
+    "title": {
+      "translate": "advancements.sqarmory.get_modweapon.title"
+    }
+  },
+  "requirements": [
+    [
+      "have_modweapon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

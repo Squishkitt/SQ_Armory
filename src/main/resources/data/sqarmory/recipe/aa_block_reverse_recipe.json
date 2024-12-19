@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "sqarmory:aa_block"
+        }
+    ],
+    "result": {
+        "id": "sqarmory:echo_amethyst",
+        "count": 9
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "values": [
+    "sqarmory:wood_longsword",
+    "sqarmory:wood_shortsword",
+    "sqarmory:wood_baxe",
+
+    "sqarmory:stone_longsword",
+    "sqarmory:stone_shortsword",
+    "sqarmory:stone_baxe",
+
+    "sqarmory:iron_longsword",
+    "sqarmory:iron_shortsword",
+    "sqarmory:iron_baxe",
+
+    "sqarmory:gold_longsword",
+    "sqarmory:gold_shortsword",
+    "sqarmory:gold_baxe",
+
+    "sqarmory:diamond_longsword",
+    "sqarmory:diamond_shortsword",
+    "sqarmory:diamond_baxe",
+
+    "sqarmory:netherite_longsword",
+    "sqarmory:netherite_shortsword",
+    "sqarmory:netherite_baxe",
+
+    "sqarmory:auric_longsword",
+    "sqarmory:auric_shortsword",
+    "sqarmory:auric_baxe",
+
+    "sqarmory:aa_longsword",
+    "sqarmory:aa_shortsword",
+    "sqarmory:aa_baxe"
+  ]
+}

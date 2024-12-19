@@ -1,0 +1,33 @@
+{
+  "parent": "sqarmory:sqarmory/get_ancient_upgrade",
+  "criteria": {
+    "have_echo_amethyst": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:echo_amethyst"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.sqarmory.get_echo_amethyst.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "sqarmory:echo_amethyst"
+    },
+    "title": {
+      "translate": "advancements.sqarmory.get_echo_amethyst.title"
+    }
+  },
+  "requirements": [
+    [
+      "have_echo_amethyst"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

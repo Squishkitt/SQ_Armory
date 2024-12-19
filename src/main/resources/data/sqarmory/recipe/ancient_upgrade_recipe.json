@@ -7,17 +7,17 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:gold_nugget"
+            "item": "minecraft:diamond"
         },
         "S": {
-            "item": "sqarmory:auric_upgrade"
+            "item": "sqarmory:ancient_upgrade"
         },
         "s": {
-            "item": "minecraft:diamond"
+            "item": "minecraft:deepslate"
         }
     },
     "result": {
-        "id": "sqarmory:auric_upgrade",
+        "id": "sqarmory:ancient_upgrade",
         "count": 2
     }
 }

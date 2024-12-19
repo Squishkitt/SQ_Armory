@@ -1,0 +1,66 @@
+{
+  "parent": "sqarmory:sqarmory/root",
+  "criteria": {
+    "have_fragment_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:upgrade_shard_1"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "have_fragment_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:upgrade_shard_2"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "have_fragment_3": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:upgrade_shard_3"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "have_fragment_4": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:upgrade_shard_4"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.sqarmory.get_ancient_fragment.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "sqarmory:upgrade_shard_1"
+    },
+    "title": {
+      "translate": "advancements.sqarmory.get_ancient_fragment.title"
+    }
+  },
+  "requirements": [
+    [
+      "have_fragment_1",
+      "have_fragment_2",
+      "have_fragment_3",
+      "have_fragment_4"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

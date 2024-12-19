@@ -76,6 +76,11 @@ public class SQArmory {
             event.accept(ModItems.AURIC_LONGSWORD);
             event.accept(ModItems.AURIC_BAXE);
 
+            event.accept(ModItems.AA_SWORD);
+            event.accept(ModItems.AA_SHORTSWORD);
+            event.accept(ModItems.AA_LONGSWORD);
+            event.accept(ModItems.AA_BAXE);
+
             event.accept(ModItems.AURIC_HELMET);
             event.accept(ModItems.AURIC_CHESTPLATE);
             event.accept(ModItems.AURIC_LEGGINGS);
@@ -97,9 +102,15 @@ public class SQArmory {
             event.accept(ModItems.AURIC_PICKAXE);
             event.accept(ModItems.AURIC_AXE);
             event.accept(ModItems.AURIC_HOE);
+
+            event.accept(ModItems.AA_SHOVEL);
+            event.accept(ModItems.AA_PICKAXE);
+            event.accept(ModItems.AA_AXE);
+            event.accept(ModItems.AA_HOE);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.AURIC_BLOCK);
+            event.accept(ModBlocks.AA_BLOCK);
         }
     }
 

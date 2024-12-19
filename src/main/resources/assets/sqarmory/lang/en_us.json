@@ -1,5 +1,6 @@
 {
   "block.sqarmory.auric_block": "Block of Refined Gold",
+  "block.sqarmory.aa_block": "Block of Echo Amethyst",
 
   "item.sqarmory.auric_ingot": "Refined Gold Ingot",
   "item.sqarmory.echo_amethyst": "Echo Amethyst",
@@ -45,6 +46,16 @@
   "item.sqarmory.auric_shovel": "Refined Gold Shovel",
   "item.sqarmory.auric_hoe": "Refined Gold Hoe",
 
+  "item.sqarmory.aa_longsword": "Ancient Amethyst Longsword",
+  "item.sqarmory.aa_shortsword": "Ancient Amethyst Shortsword",
+  "item.sqarmory.aa_baxe": "Ancient Amethyst Battleaxe",
+
+  "item.sqarmory.aa_sword": "Ancient Amethyst Sword",
+  "item.sqarmory.aa_pickaxe": "Ancient Amethyst Pickaxe",
+  "item.sqarmory.aa_axe": "Ancient Amethyst Axe",
+  "item.sqarmory.aa_shovel": "Ancient Amethyst Shovel",
+  "item.sqarmory.aa_hoe": "Ancient Amethyst Hoe",
+
   "item.sqarmory.auric_helmet": "Refined Gold Helmet",
   "item.sqarmory.auric_chestplate": "Refined Gold Chestplate",
   "item.sqarmory.auric_leggings": "Refined Gold Leggings",
@@ -66,8 +77,43 @@
   "item.sqarmory.smithing_template.ancient_upgrade.ingredients": "Echo Amethyst",
   "item.sqarmory.smithing_template.ancient_upgrade.base_slot_description": "Add refined gold armor, weapon, or tool",
   "item.sqarmory.smithing_template.ancient_upgrade.additions_slot_description": "Add Echo Amethyst",
-  "upgrade.sqarmory.ancient_upgrade": "Ancient Upgrade",
+  "upgrade.sqarmory.ancient_upgrade": "Ancient Amethyst Upgrade",
 
-  "tooltip.sqarmory.upgrade_shard": "αβγδ",
-  "tooltip.sqarmory.upgrade_shard_hint": "A fallen Empire\nCity, Fortress, and Stronghold\nOnly you remain"
+  "tooltip.sqarmory.upgrade_shard_type": "Ancient Amethyst Upgrade",
+  "tooltip.sqarmory.upgrade_shard_1_desc": "Fragment 1 of 4",
+  "tooltip.sqarmory.upgrade_shard_2_desc": "Fragment 2 of 4",
+  "tooltip.sqarmory.upgrade_shard_3_desc": "Fragment 3 of 4",
+  "tooltip.sqarmory.upgrade_shard_4_desc": "Fragment 4 of 4",
+
+  "tooltip.sqarmory.upgrade_shard_hint": "A fallen Empire\nCity, Fortress, and Stronghold\nOnly you remain",
+
+  "tooltip.sqarmory.fragment_type_fallback": "fragment type",
+  "tooltip.sqarmory.fragment_desc_fallback": "fragment desc",
+
+  "advancements.sqarmory.root.title": "SQ Armory",
+  "advancements.sqarmory.root.description": "More Weapons!",
+
+  "advancements.sqarmory.get_modweapon.title":  "Arsenal",
+  "advancements.sqarmory.get_modweapon.description": "Aquire a Longsword, Shortsword or Battleaxe",
+
+  "advancements.sqarmory.get_auric_upgrade.title": "Auric Ambitions",
+  "advancements.sqarmory.get_auric_upgrade.description": "Find a Refined Gold Upgrade template",
+
+  "advancements.sqarmory.get_auric_ingot.title": "Gold Standard",
+  "advancements.sqarmory.get_auric_ingot.description": "Create a Refined Gold Ingot",
+
+  "advancements.sqarmory.auric_armor.title": "Cover me in Extravagance",
+  "advancements.sqarmory.auric_armor.description": "Get a full suit of Refined Gold armor",
+
+  "advancements.sqarmory.get_ancient_fragment.title": "Antiquarian",
+  "advancements.sqarmory.get_ancient_fragment.description": "Find an Ancient Fragment",
+
+  "advancements.sqarmory.get_ancient_upgrade.title": "Historian",
+  "advancements.sqarmory.get_ancient_upgrade.description": "Combine Ancient Fragments α, β, γ and δ",
+
+  "advancements.sqarmory.get_echo_amethyst.title": "Echoes of the Past",
+  "advancements.sqarmory.get_echo_amethyst.description": "Synthesize an Echo Amethyst",
+
+  "advancements.sqarmory.get_aa_block.title": "Prime Echoes",
+  "advancements.sqarmory.get_aa_block.description": "Craft a Block of Echo Amethyst"
 }

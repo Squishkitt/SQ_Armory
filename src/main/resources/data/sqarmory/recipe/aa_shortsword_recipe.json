@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "sqarmory:ancient_upgrade"
+    },
+    "base": {
+        "item": "sqarmory:auric_shortsword"
+    },
+    "addition": {
+        "item": "sqarmory:echo_amethyst"
+    },
+    "result": {
+        "id": "sqarmory:aa_shortsword"
+    }
+}

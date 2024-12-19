@@ -1,0 +1,33 @@
+{
+  "parent": "sqarmory:sqarmory/root",
+  "criteria": {
+    "have_auric_upgrade": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:auric_upgrade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.sqarmory.get_auric_upgrade.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "sqarmory:auric_upgrade"
+    },
+    "title": {
+      "translate": "advancements.sqarmory.get_auric_upgrade.title"
+    }
+  },
+  "requirements": [
+    [
+      "have_auric_upgrade"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

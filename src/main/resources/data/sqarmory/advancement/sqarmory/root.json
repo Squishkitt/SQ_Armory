@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:auric_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancements.sqarmory.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "sqarmory:auric_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.sqarmory.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

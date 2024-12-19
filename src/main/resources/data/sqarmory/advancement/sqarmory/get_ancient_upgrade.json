@@ -1,0 +1,33 @@
+{
+  "parent": "sqarmory:sqarmory/get_ancient_fragment",
+  "criteria": {
+    "have_temp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:ancient_upgrade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.sqarmory.get_ancient_upgrade.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "sqarmory:ancient_upgrade"
+    },
+    "title": {
+      "translate": "advancements.sqarmory.get_ancient_upgrade.title"
+    }
+  },
+  "requirements": [
+    [
+      "have_temp"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

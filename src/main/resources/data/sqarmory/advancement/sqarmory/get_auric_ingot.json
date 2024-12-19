@@ -1,0 +1,33 @@
+{
+  "parent": "sqarmory:sqarmory/get_auric_upgrade",
+  "criteria": {
+    "have_auric_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:auric_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.sqarmory.get_auric_ingot.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "sqarmory:auric_ingot"
+    },
+    "title": {
+      "translate": "advancements.sqarmory.get_auric_ingot.title"
+    }
+  },
+  "requirements": [
+    [
+      "have_auric_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
