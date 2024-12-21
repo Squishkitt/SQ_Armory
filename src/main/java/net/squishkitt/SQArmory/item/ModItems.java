@@ -1,18 +1,16 @@
 package net.squishkitt.SQArmory.item;
 
-import net.minecraft.Util;
+import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.MutableComponent;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.squishkitt.SQArmory.SQArmory;
-import net.squishkitt.SQArmory.item.custom.CustomUpgradeTemplateItem;
-import net.squishkitt.SQArmory.item.custom.BaxeItem;
-import net.squishkitt.SQArmory.item.custom.UpgradeShardItem;
+import net.squishkitt.SQArmory.item.custom.*;
+
+import java.util.List;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -57,6 +55,24 @@ public class ModItems {
                 }
             });
 
+    public static final RegistryObject<Item> UPGRADE_SHARD_5 = ITEMS.register("upgrade_shard_5",
+            () -> new UpgradeShardItem(new Item.Properties()){
+                @Override
+                public void setTypeAndDesc() {
+                    Type = "upgrade_shard_type2";
+                    Desc = "upgrade_shard_5_desc";
+                }
+            });
+
+    public static final RegistryObject<Item> UPGRADE_SHARD_6 = ITEMS.register("upgrade_shard_6",
+            () -> new UpgradeShardItem(new Item.Properties()){
+                @Override
+                public void setTypeAndDesc() {
+                    Type = "upgrade_shard_type2";
+                    Desc = "upgrade_shard_6_desc";
+                }
+            });
+
 
     public static final RegistryObject<Item> AURIC_UPGRADE = ITEMS.register("auric_upgrade",
             () -> CustomUpgradeTemplateItem.createCustomUpgradeTemplate(
@@ -66,6 +82,14 @@ public class ModItems {
                     "smithing_template.auric_upgrade.base_slot_description",
                     "smithing_template.auric_upgrade.additions_slot_description"
                     ));
+    public static final RegistryObject<Item> COPPER_UPGRADE = ITEMS.register("copper_upgrade",
+            () -> CustomUpgradeTemplateItem.createCustomUpgradeTemplate(
+                    "copper_upgrade",
+                    "smithing_template.copper_upgrade.ingredients",
+                    "smithing_template.copper_upgrade.applies_to",
+                    "smithing_template.copper_upgrade.base_slot_description",
+                    "smithing_template.copper_upgrade.additions_slot_description"
+            ));
     public static final RegistryObject<Item> DAMASCUS_UPGRADE = ITEMS.register("damascus_upgrade",
             () -> CustomUpgradeTemplateItem.createCustomUpgradeTemplate(
                     "damascus_upgrade",
@@ -228,6 +252,27 @@ public class ModItems {
     public static final RegistryObject<Item> AA_BOOTS = ITEMS.register("aa_boots",
             () -> new ArmorItem(ModArmorMaterials.ANCIENT_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(31))));
+
+    public static final RegistryObject<Item> COPPER_BOW = ITEMS.register("copper_bow",
+            () -> new CopperBowItem(new Item.Properties().durability(864)){
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.sqarmory.ping").withStyle(ChatFormatting.GRAY));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+
+    /*
+    public static final RegistryObject<Item> COPPER_TRIDENT = ITEMS.register("copper_trident",
+
+            () -> new TridentItem(new Item.Properties()
+                    .rarity(Rarity.EPIC)
+                    .durability(800)
+                    .attributes(TridentItem.createAttributes())
+                    .component(DataComponents.TOOL, TridentItem.createToolProperties())
+            )
+    );
+    */
 
     public static void register(IEventBus eventBus) { ITEMS.register(eventBus); }
 }

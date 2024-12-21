@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "sqarmory:copper_upgrade"
+    },
+    "base": {
+        "item": "minecraft:bow"
+    },
+    "addition": {
+        "item": "minecraft:copper_ingot"
+    },
+    "result": {
+        "id": "sqarmory:copper_bow"
+    }
+}

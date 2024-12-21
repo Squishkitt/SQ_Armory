@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "sqarmory:upgrade_shard_5"
+        },
+        {
+            "item": "sqarmory:upgrade_shard_6"
+        }
+    ],
+    "result": {
+        "id": "sqarmory:copper_upgrade",
+        "count": 1
+    }
+}

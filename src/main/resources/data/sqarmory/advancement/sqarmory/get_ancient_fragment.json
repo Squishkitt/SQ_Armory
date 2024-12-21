@@ -1,41 +1,11 @@
 {
   "parent": "sqarmory:sqarmory/root",
   "criteria": {
-    "have_fragment_1": {
+    "have_fragment": {
       "conditions": {
         "items": [
           {
-            "items": "sqarmory:upgrade_shard_1"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "have_fragment_2": {
-      "conditions": {
-        "items": [
-          {
-            "items": "sqarmory:upgrade_shard_2"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "have_fragment_3": {
-      "conditions": {
-        "items": [
-          {
-            "items": "sqarmory:upgrade_shard_3"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "have_fragment_4": {
-      "conditions": {
-        "items": [
-          {
-            "items": "sqarmory:upgrade_shard_4"
+            "items": "#sqarmory:upgrade_shards"
           }
         ]
       },
@@ -56,10 +26,7 @@
   },
   "requirements": [
     [
-      "have_fragment_1",
-      "have_fragment_2",
-      "have_fragment_3",
-      "have_fragment_4"
+      "have_fragment"
     ]
   ],
   "sends_telemetry_event": true

@@ -8,6 +8,11 @@
     "sqarmory:aa_pickaxe",
     "sqarmory:aa_axe",
     "sqarmory:aa_shovel",
-    "sqarmory:aa_hoe"
+    "sqarmory:aa_hoe",
+
+    "sqarmory:aa_helmet",
+    "sqarmory:aa_chestplate",
+    "sqarmory:aa_leggings",
+    "sqarmory:aa_boots"
   ]
 }

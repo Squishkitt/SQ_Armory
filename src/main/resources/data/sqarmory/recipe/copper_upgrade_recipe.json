@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "#s#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "S": {
+            "item": "sqarmory:copper_upgrade"
+        },
+        "s": {
+            "tag": "minecraft:terracotta"
+        }
+    },
+    "result": {
+        "id": "sqarmory:copper_upgrade",
+        "count": 2
+    }
+}

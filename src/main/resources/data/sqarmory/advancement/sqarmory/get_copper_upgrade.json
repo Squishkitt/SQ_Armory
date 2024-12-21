@@ -1,0 +1,33 @@
+{
+  "parent": "sqarmory:sqarmory/get_ancient_fragment",
+  "criteria": {
+    "have_temp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqarmory:copper_upgrade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.sqarmory.get_copper_upgrade.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "sqarmory:copper_upgrade"
+    },
+    "title": {
+      "translate": "advancements.sqarmory.get_copper_upgrade.title"
+    }
+  },
+  "requirements": [
+    [
+      "have_temp"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

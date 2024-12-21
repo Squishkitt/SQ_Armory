@@ -8,9 +8,15 @@
   "item.sqarmory.upgrade_shard_2": "Ancient Fragment β",
   "item.sqarmory.upgrade_shard_3": "Ancient Fragment γ",
   "item.sqarmory.upgrade_shard_4": "Ancient Fragment δ",
+  "item.sqarmory.upgrade_shard_5": "Ancient Fragment ε",
+  "item.sqarmory.upgrade_shard_6": "Ancient Fragment ζ",
   "item.sqarmory.auric_upgrade": "Smithing Template",
   "item.sqarmory.damascus_upgrade": "Smithing Template",
   "item.sqarmory.ancient_upgrade": "Ancient Smithing Template",
+  "item.sqarmory.copper_upgrade": "Ancient Smithing Template",
+
+  "item.sqarmory.copper_bow": "Ancient Copper Bow",
+  "tooltip.sqarmory.ping": "Fire with perfect timing for a POWER SHOT!",
 
   "item.sqarmory.wood_longsword": "Wooden Longsword",
   "item.sqarmory.wood_shortsword": "Wooden Shortsword",
@@ -72,6 +78,12 @@
   "item.sqarmory.smithing_template.auric_upgrade.additions_slot_description": "Add Refined Gold Ingot",
   "upgrade.sqarmory.auric_upgrade": "Refined Gold Upgrade",
 
+  "item.sqarmory.smithing_template.copper_upgrade.applies_to": "Bows",
+  "item.sqarmory.smithing_template.copper_upgrade.ingredients": "Copper Ingot",
+  "item.sqarmory.smithing_template.copper_upgrade.base_slot_description": "Add Bow",
+  "item.sqarmory.smithing_template.copper_upgrade.additions_slot_description": "Add Copper Ingot",
+  "upgrade.sqarmory.copper_upgrade": "Ancient Copper Upgrade",
+
   "item.sqarmory.smithing_template.damascus_upgrade.applies_to": "Metallic Weapons",
   "item.sqarmory.smithing_template.damascus_upgrade.ingredients": "Ingot of Weapon material",
   "item.sqarmory.smithing_template.damascus_upgrade.base_slot_description": "Add metallic weapon",
@@ -89,6 +101,9 @@
   "tooltip.sqarmory.upgrade_shard_2_desc": "Fragment 2 of 4",
   "tooltip.sqarmory.upgrade_shard_3_desc": "Fragment 3 of 4",
   "tooltip.sqarmory.upgrade_shard_4_desc": "Fragment 4 of 4",
+  "tooltip.sqarmory.upgrade_shard_type2": "Ancient Copper Upgrade",
+  "tooltip.sqarmory.upgrade_shard_5_desc": "Fragment 1 of 2",
+  "tooltip.sqarmory.upgrade_shard_6_desc": "Fragment 2 of 2",
 
   "tooltip.sqarmory.upgrade_shard_hint": "A fallen Empire\nCity, Fortress, and Stronghold\nOnly you remain",
 
@@ -115,6 +130,9 @@
 
   "advancements.sqarmory.get_ancient_upgrade.title": "Historian",
   "advancements.sqarmory.get_ancient_upgrade.description": "Combine Ancient Fragments α, β, γ and δ",
+
+  "advancements.sqarmory.get_copper_upgrade.title": "Archaeologist",
+  "advancements.sqarmory.get_copper_upgrade.description": "Combine Ancient Fragments ε and ζ",
 
   "advancements.sqarmory.get_echo_amethyst.title": "Echoes of the Past",
   "advancements.sqarmory.get_echo_amethyst.description": "Synthesize an Echo Amethyst",

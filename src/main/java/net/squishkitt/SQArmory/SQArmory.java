@@ -16,6 +16,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.squishkitt.SQArmory.block.ModBlocks;
 import net.squishkitt.SQArmory.item.ModItems;
+import net.squishkitt.SQArmory.util.ModItemProperties;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -90,17 +91,21 @@ public class SQArmory {
             event.accept(ModItems.AA_CHESTPLATE);
             event.accept(ModItems.AA_LEGGINGS);
             event.accept(ModItems.AA_BOOTS);
+
+            event.accept(ModItems.COPPER_BOW);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.AURIC_INGOT);
             event.accept(ModItems.ECHO_AMETHYST);
+            event.accept(ModItems.AURIC_UPGRADE);
             event.accept(ModItems.UPGRADE_SHARD_1);
             event.accept(ModItems.UPGRADE_SHARD_2);
             event.accept(ModItems.UPGRADE_SHARD_3);
             event.accept(ModItems.UPGRADE_SHARD_4);
-            event.accept(ModItems.AURIC_UPGRADE);
-            event.accept(ModItems.DAMASCUS_UPGRADE);
             event.accept(ModItems.ANCIENT_UPGRADE);
+            event.accept(ModItems.UPGRADE_SHARD_5);
+            event.accept(ModItems.UPGRADE_SHARD_6);
+            event.accept(ModItems.COPPER_UPGRADE);
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.AURIC_SHOVEL);
@@ -129,6 +134,7 @@ public class SQArmory {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }
